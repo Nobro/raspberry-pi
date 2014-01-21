@@ -1,4 +1,4 @@
-#Create raspberrry pi model B with TL-WN727N wifi usb adaptor - add filter acces point
+#Create raspberry pi model B with TL-WN727N wifi usb adaptor - add filter acces point
 ##OS Rasbian Linux raspberrypi 3.6.11+
 
 * * * *
@@ -151,8 +151,7 @@ sudo crontab -e
 
 ~~~
 
-sudo curl -o /usr/local/bin/pixelserv 
-http://proxytunnel.sourceforge.net/files/pixelserv.pl.txt
+sudo curl -o /usr/local/bin/pixelserv http://proxytunnel.sourceforge.net/files/pixelserv.pl.txt
 
 sudo chmod 755 /usr/local/bin/pixelserv
 
