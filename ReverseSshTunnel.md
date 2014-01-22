@@ -15,17 +15,11 @@ vim config
 ~~~
 
 Host LinuxServer
-
  Hostname #IP/Hostname of Linux Server
- 
  IdentityFile ~/.ssh/id_rsa
- 
  user #User on Linux Server
- 
  Port #Port on Linux Server for OpenSSH
- 
  TCPKeepAlive yes
- 
  #ForwardX11Trusted yes #only if needed
  
 ~~~
