@@ -48,6 +48,8 @@ fi
 
 ~~~
 
+sudo chmod 700 ~/tunnel.sh
+
 crontab -e
 
 ~~~
