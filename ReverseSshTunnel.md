@@ -33,29 +33,17 @@ vim tunnel.sh
 #!/bin/bash
 
 createTunnel() {
-  
   /usr/bin/ssh -N -R 2222:localhost:22 LinuxServer //if OpenSSH server port for the Pi is 22
-  
   if [[ $? -eq 0 ]]; then
-    
     echo Tunnel to jumpbox created successfully
-  
   else
-    
     echo An error occurred creating a tunnel to jumpbox. RC was $?
- 
-  fi
-
+ fi
 }
-
 /bin/pidof ssh
-
 if [[ $? -ne 0 ]]; then
-  
   echo Creating new tunnel connection
-  
   createTunnel
-
 fi
 
 ~~~
@@ -65,9 +53,7 @@ crontab -e
 ~~~
 
 #Make the raspberry pi connect back to a Linux Server every day between 20 and 21.
-
 #On the Linux server run "ssh -l PiUser -p 2222 localhost" 
-
 */1 20 * * * ~/tunnel.sh > tunnel.log 2>&1
 
 ~~~
