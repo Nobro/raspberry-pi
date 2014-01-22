@@ -74,6 +74,6 @@ crontab -e
 
 #On the Linux server run "ssh -l PiUser -p 2222 localhost" 
 
-*/1 20 * * * /home/pi/ssh_tunnel.sh > tunnel.log 2>&1
+*/1 20 * * * ~/tunnel.sh > tunnel.log 2>&1
 
 ~~~
