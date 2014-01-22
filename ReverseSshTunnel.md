@@ -2,7 +2,7 @@
 
 ##Source:
 
-##[http://www.tunnelsup.com/raspberry-pi-phoning-home-using-a-reverse-remote-ssh-tunnel](http://www.tunnelsup.com/raspberry-pi-phoning-home-using-a-reverse-remote-ssh-tunnel)
+[http://www.tunnelsup.com/raspberry-pi-phoning-home-using-a-reverse-remote-ssh-tunnel](http://www.tunnelsup.com/raspberry-pi-phoning-home-using-a-reverse-remote-ssh-tunnel)
 
 * * * *
 
@@ -22,15 +22,15 @@ Host LinuxServer
  
  user #User on Linux Server
  
- Port #Port on Linux Server for OpenSSH Server
+ Port #Port on Linux Server for OpenSSH
  
  TCPKeepAlive yes
  
- #ForwardX11Trusted yes #only if neaded
+ #ForwardX11Trusted yes #only if needed
  
 ~~~
  
-scp id_rsa.pub LinuxServer:.ssh/authorized_keys
+scp id_rsa.pub LinuxServer:~/.ssh/authorized_keys
 
 vim tunnel.sh
 
