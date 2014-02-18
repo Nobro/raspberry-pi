@@ -4,13 +4,13 @@
 
 ###Resources:
 
-###[http://www.raspberrypi.org/camera]http://www.raspberrypi.org/camera
+###[http://www.raspberrypi.org/camera](http://www.raspberrypi.org/camera)
 
-###[http://www.instructables.com/id/Raspberry-Pi-as-low-cost-HD-surveillance-camera/?ALLSTEPS]http://www.instructables.com/id/Raspberry-Pi-as-low-cost-HD-surveillance-camera/?ALLSTEPS
+###[http://www.instructables.com/id/Raspberry-Pi-as-low-cost-HD-surveillance-camera/?ALLSTEPS](http://www.instructables.com/id/Raspberry-Pi-as-low-cost-HD-surveillance-camera/?ALLSTEPS)
 
-###[http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware]http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware
+###[http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware](http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/hardware)
 
-###[http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/]http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/
+###[http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/](http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/)
 
 #### To do list after burning new Raspbian image to card:
 
@@ -878,7 +878,7 @@ blacklist i2c-bcm2708
 
 ~~~
 
-[SSH key and reverse tunnel]https://github.com/Nobro/raspberry-pi/blob/master/ReverseSshTunnel.md
+[SSH key and reverse tunnel](https://github.com/Nobro/raspberry-pi/blob/master/ReverseSshTunnel.md)
 
 crontab -e
 
