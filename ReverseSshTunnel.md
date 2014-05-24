@@ -59,3 +59,5 @@ crontab -e
 */1 20 * * * ~/tunnel.sh > tunnel.log 2>&1
 
 ~~~
+
+on my raspberrypi had to install dnsutils for ssh to resolv the hostname (apt-get install dnsutils)
