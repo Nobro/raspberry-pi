@@ -60,7 +60,7 @@ DAEMON_CONF="/etc/hostapd/hostapd.conf"
 
 ~~~
 
-sudo nono /etc/sysctl.conf
+sudo nano /etc/sysctl.conf
 
 ~~~
 
