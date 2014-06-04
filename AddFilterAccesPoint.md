@@ -173,10 +173,12 @@ iface lo inet loopback
 iface eth0 inet dhcp
 
 allow-hotplug wlan0
-
+auto wlan0
 iface wlan0 inet static
         address 192.168.42.1
         netmask 255.255.255.0
+        network 192.168.42.0
+        broadcast 192.168.42.255
         post-up ip addr add dev wlan0 192.168.42.49/24
         pre-down ip addr del dev wlan0 192.168.42.49/24
 
